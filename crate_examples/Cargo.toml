@@ -17,6 +17,12 @@ name = "syntect"
 name = "clap"
 [[example]]
 name = "proto"
+[[example]]
+name = "command"
+[[example]]
+name = "polars"
+
+
 
 
 
@@ -33,3 +39,5 @@ prost-build = "0.11.8"
 percent-encoding = "2.2.0"
 axum = "0.6.10"
 tokio = { version = "1.26.0", features = ["full"] }
+polars = "0.27.2"
+sysinfo = "0.28.3"

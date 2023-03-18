@@ -2,3 +2,5 @@
 .idea
 target
 */target
+.env
+.vscode

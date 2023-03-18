@@ -1,0 +1,33 @@
+[package]
+name = "queryer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[example]]
+name = "dialect"
+[[example]]
+name = "my_dialect"
+
+[[example]]
+name = "polars"
+
+[[example]]
+name = "covid"
+
+[[example]]
+name = "ps"
+
+
+
+
+[dependencies]
+anyhow = "1"
+sqlparser = "0.32"
+reqwest = { version = "0.11", default-features = false, features = ["json", "rustls-tls"] } # 我们的老朋友 HTTP 客户端
+tokio = { version = "1", features = ["full"] } # 我们的老朋友异步库，我们这里需要异步文件处理
+async-trait = "0.1"
+tracing = "0.1" # 日志处理
+polars = {version = "0.27", features = ["json", "lazy"]}
+sysinfo = "0.28"

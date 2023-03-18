@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "queryer",
+    "queryer-py",
+    "data-viewer/src-tauri"
+]
