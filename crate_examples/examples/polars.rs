@@ -17,7 +17,7 @@ fn main() {
     // Iterate over all currently running processes
     for (pid, process) in system.processes() {
         let name = process.name().to_string();
-        let cpu_percent = process.cpu_usage() as f32;
+        let cpu_percent = process.cpu_usage();
         let memory = process.memory();
 
         let df1 = df!(
