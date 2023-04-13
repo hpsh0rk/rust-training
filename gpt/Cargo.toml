@@ -1,0 +1,3 @@
+[workspace]
+
+members = ["gpt", "gpt-py", "gpt-desktop/src-tauri"]

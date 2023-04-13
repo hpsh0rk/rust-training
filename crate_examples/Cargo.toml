@@ -25,6 +25,8 @@ name = "polars"
 name = "qrcode"
 [[example]]
 name = "reqwest"
+[[example]]
+name = "yaml"
 
 [[bin]]
 name = "dag"
@@ -38,9 +40,6 @@ path = "src/size.rs"
 [[bin]]
 name = "map_mem"
 path = "src/map_mem.rs"
-
-
-
 
 
 [dependencies]
@@ -62,3 +61,5 @@ image = "0.24"
 reqwest = { version = "0.11.14", features = ["cookies"] }
 regex = "1.7.2"
 lazy_static = "1.4.0"
+serde = { version = "1.0.159", features = ["derive"] }
+serde_yaml = "0.9.20"

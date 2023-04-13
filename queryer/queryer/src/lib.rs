@@ -20,7 +20,6 @@ use crate::loader::detect_content;
 #[derive(Debug)]
 pub struct DataSet(DataFrame);
 
-
 /// 让 DataSet 用起来和 DataFrame 一致
 impl Deref for DataSet {
     type Target = DataFrame;
