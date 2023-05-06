@@ -10,7 +10,7 @@ const MessageItem: FC<{ message: Message; index?: number }> = ({
     message,
     index,
 }) => {
-    const { i18n } = useContext(GlobalContext);
+
     const createdAt = getRelativeTime(message.createdAt, true);
     return (
         <div
