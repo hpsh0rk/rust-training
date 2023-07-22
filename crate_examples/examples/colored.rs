@@ -14,7 +14,7 @@ fn main() {
         "any".italic().yellow(),
         "string type".cyan()
     );
-    "or change advice. This is red".yellow().blue().red();
+    println!("{}", "or change advice. This is red".yellow().blue().red());
     "or clear things up. This is default color and style"
         .red()
         .bold()
