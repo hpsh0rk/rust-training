@@ -546,6 +546,7 @@ dependencies = [
  "axum",
  "clap",
  "colored",
+ "glob",
  "image 0.24.5",
  "jsonxf",
  "lazy_static",

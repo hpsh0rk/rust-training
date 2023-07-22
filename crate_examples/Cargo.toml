@@ -29,6 +29,8 @@ name = "reqwest"
 name = "yaml"
 [[example]]
 name = "llm_chain"
+[[example]]
+name = "glob"
 
 [[bin]]
 name = "dag"
@@ -65,5 +67,9 @@ regex = "1.7.2"
 lazy_static = "1.4.0"
 serde = { version = "1.0.159", features = ["derive"] }
 serde_yaml = "0.9.20"
+<<<<<<< HEAD
 llm-chain = "0.8.0"
 llm-chain-openai = "0.8.0"
+=======
+glob = "0.3.1"
+>>>>>>> train
