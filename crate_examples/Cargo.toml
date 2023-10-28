@@ -39,6 +39,8 @@ name = "termimad"
 name = "pulldown_cmark"
 [[example]]
 name = "rustyline"
+[[plotly]]
+name = "plotly"
 
 [[bin]]
 name = "dag"
@@ -82,3 +84,7 @@ comrak = "0.18.0"
 termimad = "0.23.1"
 pulldown-cmark = "0.9.3"
 rustyline = "12.0.0"
+tui = "0.19"
+crossterm = "0.25"
+argh = "0.1.10"
+plotly = "0.8"
